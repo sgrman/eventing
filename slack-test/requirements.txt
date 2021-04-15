@@ -1,0 +1,4 @@
+flask==1.1.2
+cloudevents==1.2.0
+slack_sdk==3.4.2
+requests==2.25.1
