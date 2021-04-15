@@ -7,7 +7,7 @@ from slack_sdk.webhook import WebhookClient
 logging.basicConfig(level=logging.DEBUG,format='%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
 app = Flask(__name__)
-url = 'https://hooks.slack.com/services/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'
+url = <ISERT YOUR WEBOOK>
 webhook = WebhookClient(url)
 @app.route('/', methods=['GET','POST'])
 def echo():
